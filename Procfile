@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Ant_Sel.py
+web: gunicorn app:server
